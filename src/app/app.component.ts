@@ -69,6 +69,7 @@ export class AppComponent implements OnInit {
     );
   }
 
+  //search function
   public searchEmployees(key: string): void {
     console.log("key: ",key);
     const results: Employee[] = [];
